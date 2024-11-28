@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-qbt7=7=jr9db@p6t@$b&d8)4j8r0t&xqk@6hm+k9^ek^3hsxwi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [ '8000-pauldmnn-djangoprojectb-d2yryfbp585.ws-eu117.gitpod.io']
+ALLOWED_HOSTS = [ '8000-pauldmnn-djangoprojectb-d2yryfbp585.ws-eu117.gitpod.io',
+                '.herokuapp.com',]
 
 
 # Application definition
@@ -38,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    '.herokuapp.com',
+    
 ]
 
 MIDDLEWARE = [
